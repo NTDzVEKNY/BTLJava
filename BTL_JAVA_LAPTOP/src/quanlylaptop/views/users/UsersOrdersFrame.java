@@ -134,7 +134,7 @@ public class UsersOrdersFrame extends JFrame {
         tbLstLapInOrder.getColumnModel().getColumn(0).setPreferredWidth(50);
         tbLstLapInOrder.getColumnModel().getColumn(0).setMaxWidth(50);
 
-        jPanel1.setBackground(new java.awt.Color(102, 153, 255));
+        jPanel1.setBackground(new java.awt.Color(88, 191, 190));
 
         btnQliLaptop.setText("Quản lí laptop");
         btnQliLaptop.addActionListener(new java.awt.event.ActionListener() {

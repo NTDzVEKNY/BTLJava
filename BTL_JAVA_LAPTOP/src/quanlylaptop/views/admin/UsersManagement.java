@@ -174,7 +174,7 @@ public class UsersManagement extends JFrame {
             }
         });
 
-        btnExport.setBackground(new java.awt.Color(0, 255, 255));
+        btnExport.setBackground(new java.awt.Color(189, 222, 196));
         btnExport.setText("Xuất dữ liệu");
         btnExport.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -182,7 +182,7 @@ public class UsersManagement extends JFrame {
             }
         });
 
-        btnImport.setBackground(new java.awt.Color(0, 255, 255));
+        btnImport.setBackground(new java.awt.Color(189, 222, 196));
         btnImport.setText("Nhập dữ liệu");
         btnImport.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -221,7 +221,7 @@ public class UsersManagement extends JFrame {
                 .addComponent(lbTime, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(51, 153, 255));
+        jPanel2.setBackground(new java.awt.Color(88, 191, 190));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 3, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(51, 51, 255));

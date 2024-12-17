@@ -209,7 +209,7 @@ public class RevenueLapytopFrame extends JFrame {
                 .addComponent(lbTime, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(51, 153, 255));
+        jPanel2.setBackground(new java.awt.Color(88, 191, 190));
 
         lblHoachToan.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         lblHoachToan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/quanlynhadat/views/icons/Actions-view-choose-icon-24.png"))); // NOI18N

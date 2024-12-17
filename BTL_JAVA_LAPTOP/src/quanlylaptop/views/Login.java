@@ -68,8 +68,8 @@ public class Login extends JFrame {
             }
         });
 
-        jPanel1.setBackground(new java.awt.Color(51, 153, 255));
-        jPanel1.setForeground(new java.awt.Color(51, 153, 255));
+        jPanel1.setBackground(new java.awt.Color(88, 191, 190));
+        jPanel1.setForeground(new java.awt.Color(88, 191, 190));
 
         jLabelDangNhap.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jLabelDangNhap.setText(" Đăng nhập");

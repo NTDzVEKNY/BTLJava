@@ -114,7 +114,7 @@ public class UsersFrame extends JFrame {
         tbListLaptop.getColumnModel().getColumn(4).setPreferredWidth(100);
         tbListLaptop.getColumnModel().getColumn(4).setMaxWidth(100);
 
-        jPanel1.setBackground(new java.awt.Color(102, 153, 255));
+        jPanel1.setBackground(new java.awt.Color(88, 191, 190));
 
         btnQliLaptop.setText("Quản lí laptop");
         btnQliLaptop.addActionListener(new java.awt.event.ActionListener() {
