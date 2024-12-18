@@ -460,10 +460,10 @@ public class UsersFrame extends JFrame {
         int responseConfirm = JOptionPane.showConfirmDialog(null, "Bạn có chắc chắn muốn xoá? ", "Xoá laptop", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
         if (responseConfirm == JOptionPane.YES_OPTION) {
             if (!LaptopController.deleteLaptop(Integer.parseInt(txtLaptopID.getText()))) {
-                JOptionPane.showConfirmDialog(null, "Xoá gio dich nhà thất bại", " Lỗi xoá gio dich nhà", JOptionPane.DEFAULT_OPTION, JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showConfirmDialog(null, "Xoá Laptop thất bại", " Lỗi xoá Laptop", JOptionPane.DEFAULT_OPTION, JOptionPane.ERROR_MESSAGE);
                 return;
             }
-            JOptionPane.showConfirmDialog(null, "Xoá gio dich nhà thành công ", "Xoá giao dịch", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showConfirmDialog(null, "Xoá Laptop thành công ", "Xoá Laptop", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE);
             DefaultTableModel model = (DefaultTableModel) tbListLaptop.getModel();
             model.setRowCount(0);
             formWindowOpened(null);
